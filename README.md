@@ -1,8 +1,4 @@
 # Array_and_ArrayList
-
-<!DOCTYPE html>
-<html lang="en">
-<body>
     <h1>Array_and_ArrayList Repository</h1>
     <p><strong>Author:</strong> Kashvi Singh</p>
     <p><strong>PRN:</strong> 23070126057</p>
@@ -49,5 +45,3 @@
         <li>Run the main program using <code>java Main</code></li>
         <li>Follow the on-screen prompts to select an operation.</li>
     </ol>
-</body>
-</html>
