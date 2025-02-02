@@ -35,8 +35,8 @@ class Main {
                     return;
                 }
                 default -> {
-			              System.out.println("Invalid choice, please try again.");
-		            }
+		    System.out.println("Invalid choice, please try again.");
+		}
             }
         }
     }
