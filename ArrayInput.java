@@ -1,0 +1,5 @@
+//ArrayInput.java
+
+class ArrayInput(){
+
+}
