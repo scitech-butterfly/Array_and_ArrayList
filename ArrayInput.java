@@ -16,4 +16,14 @@ class ArrayInput(){
       return array;
   }
 
+  // Method to take user input for an ArrayList
+  ArrayList<Integer> getUserArrayList() {
+      ArrayList<Integer> arrayList = new ArrayList<>();
+      System.out.println("Enter numbers for ArrayList (type 'done' to finish):");
+
+      while (scan.hasNextInt()) {
+          arrayList.add(scan.nextInt());
+      }
+      return arrayList;
+  }
 }
