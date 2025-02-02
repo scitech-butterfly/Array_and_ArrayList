@@ -45,4 +45,13 @@ class ArrayFunctions{
         	return minIndex;
     	}
 
+	// Convert array to ArrayList
+    	ArrayList<Integer> arrayToArrayList(int[] array) {
+        	ArrayList<Integer> arrayList = new ArrayList<>();
+        	for (int num : array) {
+            	arrayList.add(num);
+        	}
+        	return arrayList;
+    	}
+
 }
