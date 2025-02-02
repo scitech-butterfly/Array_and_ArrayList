@@ -1,6 +1,6 @@
 //ArrayInput.java
 import java.util.*;
-class ArrayInput(){
+class ArrayInput{
   Scanner scan = new Scanner(System.in);
 
   // Method to take user input for an array
