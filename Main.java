@@ -13,7 +13,7 @@ class Main {
         //Switch-case to display menu and perform different functions according to user's choice
         while (true) {
             System.out.println("\nSelect an operation:");
-            System.out.println("1. Separate Even and Odd numbers\n2. Find index of closest neighboring numbers\n0. Exit");
+            System.out.println("1. Separate Even and Odd numbers\n2. Find index of closest neighboring numbers\n3. Convert Array to ArrayList\n4. Convert ArrayList to Array\n0. Exit");
             int choice = scanner.nextInt();
 
             switch (choice) {
@@ -27,6 +27,16 @@ class Main {
                     int[] array = arrayInput.getUserArray();
                     int index = functions.findSmallestDistanceIndex(array);
                     System.out.println("Index of the first number in the closest pair: " + index);
+                }
+		case 3 -> {
+                    int[] array = arrayInput.getUserArray();
+                    ArrayList<Integer> arrayList = functions.arrayToArrayList(array);
+                    System.out.println("Converted ArrayList: " + arrayList);
+                }
+                case 4 -> {
+                    ArrayList<Integer> arrayList = arrayInput.getUserArrayList();
+                    int[] array = functions.arrayListToArray(arrayList);
+                    System.out.println("Converted Array: " + Arrays.toString(array));
                 }
                 //To exit the program and break out of the while loop
                 case 0 -> {
