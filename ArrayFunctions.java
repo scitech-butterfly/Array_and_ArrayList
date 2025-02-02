@@ -3,12 +3,12 @@
 import java.util.*;
 
 class ArrayFunctions{
-  //Method to display the array
+  	//Method to display the array
 	void display(ArrayList<Integer> array){
 		System.out.println("Array is: "+ array);
 	}
 
-  //Method to separate into odd and even arrays
+  	//Method to separate into odd and even arrays
 	void separateOddEven(int[] array){
 		ArrayList<Integer> even = new ArrayList<Integer>();
 		ArrayList<Integer> odd = new ArrayList<Integer>();
